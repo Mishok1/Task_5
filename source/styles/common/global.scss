@@ -1,0 +1,26 @@
+@use "./variables.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "TTHoves-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #353945;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}

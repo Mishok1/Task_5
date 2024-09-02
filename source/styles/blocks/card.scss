@@ -1,0 +1,57 @@
+.card__wrapper {
+  padding: 24px;
+}
+
+.card__badge {
+  font-family: "TTHoves-Regular", sans-serif;
+  font-weight: 400;
+  color: #6439df;
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+  margin-bottom: 4px;
+
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: url("../../icons/Bolt.svg") no-repeat center;
+  }
+}
+
+.card__title {
+  margin-bottom: 8px;
+}
+
+.card__class {
+  font-family: "TTHoves-Medium", sans-serif;
+  font-weight: 400;
+  color: #777e90;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.card__container {
+  display: flex;
+  column-gap: 4px;
+  margin-bottom: 16px;
+}
+
+.card__block {
+  padding: 12px 24px;
+  border: 1px solid #e6e8ec;
+  border-radius: 130px;
+}
+
+.card__list {
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.card__address {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}

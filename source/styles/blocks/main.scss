@@ -1,0 +1,12 @@
+@use "../common/variables.scss";
+
+.main {
+  background-color: #ffffff;
+  max-width: variables.$tablet-width;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.main__card {
+  width: 100%;
+}
